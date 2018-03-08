@@ -39,7 +39,6 @@
     "serve-favicon": "^2.3.0"
   },
   "devDependencies": {
-    
     "@angularclass/hmr-loader": "^3.0.4",
     "reflect-metadata": "^0.1.3",
     "rxjs": "^5.5.2",
@@ -52,7 +51,6 @@
     "@angular/platform-browser": "^5.0.1",
     "@angular/platform-browser-dynamic": "^5.0.1",
     "@angular/router": "^5.0.1",
-    
     "@angularclass/hmr": "^2.1.3",
     "@types/core-js": "^0.9.41",
     "@types/lodash": "^4.14.63",
@@ -65,32 +63,16 @@
     "@types/webpack": "^3.0.10",
     "angular2-universal": "2.1.0-rc.1",
     "angular2-jwt": "^0.2.3",
-    
     "angular-validation-match": "^1.9.0",
-    
-
-  
     "bootstrap": "~3.3.7",
-    
     "ngx-bootstrap": "~1.6.3",
-    
     "bootstrap-sass": "~3.3.7",
-    
-    
-  
-
     "font-awesome": ">=4.1.0",
-    
-    
-
-    
-
     "autoprefixer": "^7.1.3",
     "babel-core": "^6.6.5",
     "babel-eslint": "^7.2.3",
     "babel-register": "^6.16.0",
     "bs-fullscreen-message": "^1.0.0",
-
     "babel-plugin-transform-class-properties": "^6.6.0",
     "babel-plugin-transform-runtime": "^6.6.0",
     "babel-plugin-istanbul": "^4.1.4",
@@ -109,7 +91,6 @@
     "gulp-istanbul-enforcer": "^1.0.3",
     "gulp-load-plugins": "^1.0.0-rc.1",
     "gulp-mocha": "^4.3.1",
-    
     "gulp-plumber": "^1.0.1",
     "gulp-protractor": "^3.0.0",
     "gulp-rev": "^8.0.0",
@@ -125,13 +106,11 @@
     "nodemon": "^1.3.7",
     "run-sequence": "^2.1.0",
     "lazypipe": "^1.0.1",
-    
     "webpack": "^3.5.5",
     "webpack-dev-server": "^2.4.2",
     "extract-text-webpack-plugin": "3.0.0",
     "html-webpack-plugin": "^2.24.1",
     "html-webpack-harddisk-plugin": "~0.1.0",
-
     "typescript": "~2.6.1",
     "awesome-typescript-loader": "^3.3.0",
     "babel-loader": "^7.1.2",
@@ -145,10 +124,7 @@
     "style-loader": "^0.18.2",
     "node-sass": "^4.5.3",
     "sass-loader": "^6.0.6",
-
-
     "karma-webpack": "^2.0.3",
-    
     "through2": "^2.0.1",
     "open": "~0.0.4",
     "istanbul": "1.1.0-alpha.1",
@@ -185,7 +161,6 @@
     "test": "gulp test",
     "test:client": "karma start ./karma.conf.js --single-run",
     "update-webdriver": "node node_modules/protractor/bin/webdriver-manager update",
-
     "start": "node server",
     "start:client": "webpack-dev-server --config webpack.dev.js",
     "start:server": "node server"
