@@ -151,8 +151,8 @@
     "tslint": "^5.7.0"
   },
   "engines": {
-    "node": "^6.2.2",
-    "npm": "^3.9.5"
+    "node": "9.2.0",
+    "npm": "5.5.1"
   },
   "scripts": {
     "lint": "npm run lint:client && npm run lint:server",
